@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // Define the domains that should use the proxy
-    if (shExpMatch(host, "*.youtube.com") ||
+    if (shExpMatch(host, "youtube.com") ||
         shExpMatch(host, "*.medium.com")) {
         return "PROXY webhop.ddns.net:4443";
     }
