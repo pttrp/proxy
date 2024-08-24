@@ -5,8 +5,7 @@ function FindProxyForURL(url, host) {
       dnsDomainIs(host, ".ytimg.com") ||
       dnsDomainIs(host, ".ggpht.com") ||
       dnsDomainIs(host, ".googlevideo.com")
-      shExpMatch(host, "youtube.com") ||
-      shExpMatch(host, "*.medium.com")) {
+      dnsDomainIs(host, ".medium.com")) {
       return "PROXY https://webhop.ddns.net:4443";
     }
 
