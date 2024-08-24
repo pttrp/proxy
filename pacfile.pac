@@ -7,7 +7,7 @@ function FindProxyForURL(url, host) {
       dnsDomainIs(host, ".googlevideo.com")
       dnsDomainIs(host, ".myip.com")
       dnsDomainIs(host, ".medium.com")) {
-      return "PROXY https://webhop.ddns.net:4443";
+      return "HTTPS https://webhop.ddns.net:4443";
     }
 
     // Bypass the proxy for all other domains
