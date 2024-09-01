@@ -6,7 +6,8 @@ function FindProxyForURL(url, host) {
       dnsDomainIs(host, ".ggpht.com") ||
       dnsDomainIs(host, ".googlevideo.com") ||
       dnsDomainIs(host, ".myip.com") ||
-      dnsDomainIs(host, ".medium.com")) {
+      dnsDomainIs(host, ".medium.com")) ||
+      dnsDomainIs(host, ".kinozal.tv")) {
       return "HTTPS myhop.ddns.net:4443";
     }
 
