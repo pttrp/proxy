@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
       dnsDomainIs(host, ".medium.com") ||
       dnsDomainIs(host, ".rutracker.org") ||
       dnsDomainIs(host, ".kinozal.tv") ||
-      dnsDomainIs(host, ".kpapp.link")){
+      dnsDomainIs(host, ".kpapp.link")) {
       return "HTTPS myhop.ddns.net:4443";
     }
 
